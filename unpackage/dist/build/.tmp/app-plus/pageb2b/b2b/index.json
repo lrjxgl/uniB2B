@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "page-loading": "/components/pageloading",
+    "b2b-footer": "/components/b2bfooter",
+    "sky-raty": "/components/skyraty",
+    "shop-item": "/components/shop-item"
+  }
+}

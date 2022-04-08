@@ -1,0 +1,68 @@
+
+.skyShare-box{
+	position: fixed;
+	left: 10px;
+	right:10px;
+	bottom:10px;
+	background-color: #fff;
+	z-index: 9999;
+}
+.skyShare{
+	padding: 44px; 
+	border-bottom: 2px solid #eee;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.skyShare-item{
+	width: 33.3%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.skyShare-item:before{
+	font-family: iconfont;
+	font-size: 72px;
+	margin-bottom: 12px;
+}
+.skyShare-item-title{
+	font-size: 24px;
+	color: #323232;
+}
+.icon-weixin,.icon-wxzone{
+	color: #23bf23;
+}
+.icon-qq,.icon-qzone{
+	color:#ffca00
+}
+.skyShare-footer{
+	text-align: center;
+	padding: 22px 0px;
+	color: #464646;
+	font-size: 34px;
+	cursor: pointer;
+}
+

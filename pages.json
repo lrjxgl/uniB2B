@@ -1,0 +1,466 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "福鼎生活网",
+				"onReachBottomDistance": 60,
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/web/index",
+			"style": {
+				"navigationBarTitleText": "Web浏览"
+			}
+		}, {
+			"path": "pages/allmsg/index",
+			"style": {
+				"navigationBarTitleText": "消息中心"
+			}
+		},
+		{
+			"path": "pages/article/index",
+			"style": {
+				"navigationBarTitleText": "资讯中心"
+			}
+		},
+		{
+			"path": "pages/article/list",
+			"style": {
+				"navigationBarTitleText": "资讯列表"
+			}
+		},
+		{
+			"path": "pages/article/show",
+			"style": {
+				"navigationBarTitleText": "资讯详情"
+			}
+		},
+		{
+			"path": "pages/bankcard/index",
+			"style": {
+				"navigationBarTitleText": "银行卡"
+			}
+		},
+		{
+			"path": "pages/city/index",
+			"style": {
+				"navigationBarTitleText": "城市"
+			}
+		},
+		{
+			"path": "pages/comment/my",
+			"style": {
+				"navigationBarTitleText": "我的评论",
+				"onReachBottomDistance": 60,
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/coupon/index",
+			"style": {
+				"navigationBarTitleText": "领取优惠券"
+			}
+		},
+		{
+			"path": "pages/coupon_user/index",
+			"style": {
+				"navigationBarTitleText": "我的优惠券"
+			}
+		},
+		{
+			"path": "pages/fav/my",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+			"path": "pages/follow/index",
+			"style": {
+				"navigationBarTitleText": "我的好友"
+			}
+		},
+		{
+			"path": "pages/gold_log/my",
+			"style": {
+				"navigationBarTitleText": "金币日志"
+			}
+		},
+		{
+			"path": "pages/html/aboutus",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},
+		{
+			"path": "pages/invite/my",
+			"style": {
+				"navigationBarTitleText": "邀请好友"
+			}
+		},
+		{
+			"path": "pages/invite_account_log/index",
+			"style": {
+				"navigationBarTitleText": "邀请收益"
+			}
+		},
+		{
+			"path": "pages/kefu/index",
+			"style": {
+				"navigationBarTitleText": "客服"
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登陆"
+			}
+		},
+		{
+			"path": "pages/login/findpwd",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		},
+		{
+			"path": "pages/notice/my",
+			"style": {
+				"navigationBarTitleText": "通知"
+			}
+		},
+		{
+			"path": "pages/pay_log/my",
+			"style": {
+				"navigationBarTitleText": "消费记录"
+			}
+		},
+		{
+			"path": "pages/pm/index",
+			"style": {
+				"navigationBarTitleText": "我的私信"
+			}
+		},
+		{
+			"path": "pages/pm/detail",
+			"style": {
+				"navigationBarTitleText": "私信"
+			}
+		},
+		{
+			"path": "pages/recharge/my",
+			"style": {
+				"navigationBarTitleText": "支付记录"
+			}
+		},
+		{
+			"path": "pages/recharge/index",
+			"style": {
+				"navigationBarTitleText": "支付"
+			}
+		},
+		{
+			"path": "pages/register/index",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}, {
+			"path": "pages/sysmsg/index",
+			"style": {
+				"navigationBarTitleText": "系统通知"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/user/info",
+			"style": {
+				"navigationBarTitleText": "资料编辑"
+			}
+		},
+		{
+			"path": "pages/user/user_head",
+			"style": {
+				"navigationBarTitleText": "头像编辑"
+			}
+		},
+		{
+			"path": "pages/user/password",
+			"style": {
+				"navigationBarTitleText": "密码修改"
+			}
+		},
+		{
+			"path": "pages/user/paypwd",
+			"style": {
+				"navigationBarTitleText": "支付密码"
+			}
+		},
+		{
+			"path": "pages/user_address/my",
+			"style": {
+				"navigationBarTitleText": "收货地址"
+			}
+		},
+		{
+			"path": "pages/user_address/add",
+			"style": {
+				"navigationBarTitleText": "收货地址添加"
+			}
+		},
+		{
+			"path": "pages/user_address/edit",
+			"style": {
+				"navigationBarTitleText": "收货地址编辑"
+			}
+		},
+		{
+			"path": "pages/user/set",
+			"style": {
+				"navigationBarTitleText": "用户设置"
+			}
+		}
+	],
+	"subPackages": [
+
+		{
+			"root": "b2b",
+			"pages": [{
+					"path": "b2b_blog/add",
+					"style":{
+						"navigationBarTitleText":"博文发布"
+					}
+				},
+				{
+					"path": "b2b_blog/index",
+					"style":{
+						"navigationBarTitleText":"博客"
+					}
+				},
+				{
+					"path": "b2b_blog/my",
+					"style":{
+						"navigationBarTitleText":"我的博客"
+					}
+				},
+				{
+					"path": "b2b_blog/show",
+					"style":{
+						"navigationBarTitleText":"博客详情"
+					}
+				},
+				{
+					"path": "b2b_cbd/index",
+					"style":{
+						"navigationBarTitleText":"商圈"
+					}
+				},
+				{
+					"path": "b2b_cbd/show",
+					"style":{
+						"navigationBarTitleText":"商圈详情"
+					}
+				},
+				{
+					"path": "b2b_shoplist/youxuan",
+					"style":{
+						"navigationBarTitleText":"优选"
+					}
+				},
+				{
+					"path": "b2b/index",
+					"style": {
+						"navigationBarTitleText": "得推商城"
+					}
+				},
+				{
+					"path": "b2b_addr/city",
+					"style": {
+						"navigationBarTitleText": "选择城市"
+					}
+				},
+				{
+					"path": "b2b_addr/index",
+					"style": {
+						"navigationBarTitleText": "选择地址"
+					}
+				},
+				{
+					"path": "b2b_cart/index",
+					"style": {
+						"navigationBarTitleText": "购物车"
+					}
+				},
+				{
+					"path": "b2b_category/index",
+					"style": {
+						"navigationBarTitleText": "商品分类"
+					}
+				},
+				{
+					"path": "b2b_coupon/index",
+					"style": {
+						"navigationBarTitleText": "优惠券"
+					}
+				},
+				{
+					"path": "b2b_coupon_user/index",
+					"style": {
+						"navigationBarTitleText": "我的优惠券"
+					}
+				},
+				{
+					"path": "b2b_fav/index",
+					"style": {
+						"navigationBarTitleText": "收藏"
+					}
+				},
+				{
+					"path": "b2b_group_product/index",
+					"style": {
+						"navigationBarTitleText": "推荐"
+					}
+				},
+				{
+					"path": "b2b_guest/index",
+					"style": {
+						"navigationBarTitleText": "客服消息"
+					}
+				},
+				{
+					"path": "b2b_guest/user",
+					"style": {
+						"navigationBarTitleText": "客服"
+					}
+				},
+				{
+					"path": "b2b_notice/index",
+					"style": {
+						"navigationBarTitleText": "消息"
+					}
+				},
+				{
+					"path": "b2b_order/confirm",
+					"style": {
+						"navigationBarTitleText": "下单确认"
+					}
+				},
+				{
+					"path": "b2b_order/fail",
+					"style": {
+						"navigationBarTitleText": "下单失败"
+					}
+				},
+				{
+					"path": "b2b_order/my",
+					"style": {
+						"navigationBarTitleText": "我的订单"
+					}
+				},
+				{
+					"path": "b2b_order/pay",
+					"style": {
+						"navigationBarTitleText": "支付"
+					}
+				},
+				{
+					"path": "b2b_order/raty",
+					"style": {
+						"navigationBarTitleText": "评价"
+					}
+				},
+				{
+					"path": "b2b_order/show",
+					"style": {
+						"navigationBarTitleText": "订单详情"
+					}
+				},
+				{
+					"path": "b2b_order/success",
+					"style": {
+						"navigationBarTitleText": "下单成功"
+					}
+				},
+				{
+					"path": "b2b_product/index",
+					"style": {
+						"navigationBarTitleText": "产品中心"
+					}
+				},
+				{
+					"path": "b2b_product/list",
+					"style": {
+						"navigationBarTitleText": "产品列表"
+					}
+				},
+				{
+					"path": "b2b_product/show",
+					"style": {
+						"navigationBarTitleText": "产品详情"
+					}
+				},
+				{
+					"path": "b2b_search/index",
+					"style": {
+						"navigationBarTitleText": "搜索"
+					}
+				},
+				{
+					"path": "b2b_shop/index",
+					"style": {
+						"navigationBarTitleText": "商家主页",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "b2b_shoplist/index",
+					"style": {
+						"navigationBarTitleText": "商家列表"
+					}
+				},
+				{
+					"path": "b2b_user/index",
+					"style": {
+						"navigationBarTitleText": "我的"
+					}
+				}
+			]
+		}
+
+	],
+	"preloadRule": {
+		"pages/index/index": {
+			"network": "all",
+			"packages": ["b2b"]
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "得推B2B",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"permission": {
+		"scope.userLocation": {
+			"desc": "你的位置信息将用于小程序位置接口的效果展示"
+		}
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 1, //当前激活的模式（list 的索引项）
+		"list": [{
+				"name": "index", //模式名称
+				"path": "pages/index/index", //启动页面，必选
+				"query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "b2b",
+				"path": "b2b/b2b_addr/city"
+			}
+		]
+	}
+
+}

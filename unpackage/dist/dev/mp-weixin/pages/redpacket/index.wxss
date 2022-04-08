@@ -1,0 +1,31 @@
+
+.f30{
+	font-size:30px;
+	line-height:1;
+}
+.fb7{
+	color:#fb7f78;
+	font-size:16px;
+	margin-bottom:5px;
+}
+.redpacket-box{
+	margin: 10px;
+	border-radius: 20px;
+	background-color: #fff;
+	padding: 10px;
+}
+.redpacket-box-ft{
+	height:20px;
+	font-size:14px;
+	color:#969696;
+	white-space: nowrap;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	-webkit-transform: scale(0.7);
+	    -ms-transform: scale(0.7);
+	        transform: scale(0.7);
+	-webkit-transform-origin: 0;
+	    -ms-transform-origin: 0;
+	        transform-origin: 0;
+}
+

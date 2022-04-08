@@ -1,0 +1,50 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.7.0",
+	"appid": "wx80bb015d1ac34f04",
+	"projectname": "得推外卖",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 1,
+			"list": [
+				{
+					"name": "index",
+					"query": "interval=4000&autoplay=false",
+					"id": 0,
+					"pathName": "pages/index/index"
+				},
+				{
+					"name": "b2b",
+					"id": 1,
+					"pathName": "pageb2b/b2b_addr/city"
+				},
+				{
+					"name": "hello",
+					"id": 2,
+					"pathName": "pages/hello"
+				}
+			]
+		}
+	}
+}

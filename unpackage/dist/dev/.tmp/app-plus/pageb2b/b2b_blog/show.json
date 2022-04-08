@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "d-userbox": "/components/d-userbox",
+    "cmform": "/components/cmform"
+  }
+}

@@ -1,0 +1,20 @@
+
+.side{
+	position: fixed;
+	top: 96rpx;
+	left: 0rpx;
+	width: 200rpx;
+	bottom: 110rpx;
+	background-color: #fff;
+}
+.side-menu{
+	cursor: pointer;
+	padding: 22rpx 11rpx;
+	border-bottom: 2rpx solid #eee;
+	color: #646464;
+	font-size: 16px;
+}
+.main{
+	margin-left: 205rpx;
+}
+

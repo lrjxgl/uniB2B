@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/upimgbox"],{"03c0":function(t,a,i){"use strict";i.r(a);var e=i("f7ba"),u=i("a066");for(var s in u)"default"!==s&&function(t){i.d(a,t,function(){return u[t]})}(s);var n=i("2877"),r=Object(n["a"])(u["default"],e["a"],e["b"],!1,null,null,null);a["default"]=r.exports},"163c":function(t,a,i){"use strict";(function(t,e){Object.defineProperty(a,"__esModule",{value:!0}),a.default=void 0;var u=i("8be9"),s={name:"upimg-box",props:{defaultImgsList:{},defaultImgsData:{}},data:function(){return{imgsData:this.defaultImgsData,imgsList:this.defaultImgsList}},methods:{upImg:function(){var a=this;t.chooseImage({success:function(i){for(var e=i.tempFilePaths,s=e.length,n=0;n<s;n++)t.uploadFile({url:u.apiHost+"/index.php?m=upload&a=img&ajax=1&authcode="+u.getAuthCode(),filePath:e[n],name:"upimg",dataType:"json",success:function(t){if(!t.data.error){var i=JSON.parse(t.data),e=[{imgurl:i.data.imgurl,trueimgurl:i.data.trueimgurl}];a.imgsList=u.json_add(a.imgsList,e),""==a.imgsData||void 0==a.imgsData?a.imgsData=i.data.imgurl:a.imgsData=a.imgsData+","+i.data.imgurl}}})}})},delImg:function(t){this.imgsList.length;var a=new Array,i="",u=this.imgsList;for(var s in u)s!=t&&a.push(u[s]);for(s=0;s<a.length;s++)s>0&&(i+=","),i+=a[s].imgurl;console.log(e(i," at components\\upimgbox.vue:87")),this.imgsData=i,this.imgsList=a}}};a.default=s}).call(this,i("6e42")["default"],i("0de9")["default"])},a066:function(t,a,i){"use strict";i.r(a);var e=i("163c"),u=i.n(e);for(var s in e)"default"!==s&&function(t){i.d(a,t,function(){return e[t]})}(s);a["default"]=u.a},f7ba:function(t,a,i){"use strict";var e=function(){var t=this,a=t.$createElement;t._self._c},u=[];i.d(a,"a",function(){return e}),i.d(a,"b",function(){return u})}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/upimgbox-create-component',
+    {
+        'components/upimgbox-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('6e42')['createComponent'](__webpack_require__("03c0"))
+        })
+    },
+    [['components/upimgbox-create-component']]
+]);                

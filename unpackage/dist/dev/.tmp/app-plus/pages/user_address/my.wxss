@@ -1,0 +1,14 @@
+
+.fixBt{
+	 position: fixed;
+	 width: 120rpx;
+	 height: 120rpx;
+	 text-align: center;
+	 line-height: 120rpx;
+	 border-radius: 50%;
+	 background-color: #007AFF;
+	 color: #fff;
+	 right: 5rpx;
+	 bottom: 10rpx;
+}
+

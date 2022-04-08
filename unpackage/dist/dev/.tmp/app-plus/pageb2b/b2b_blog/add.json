@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "pickergroup": "/components/pickergroup",
+    "upimg-box": "/components/upimgbox"
+  }
+}

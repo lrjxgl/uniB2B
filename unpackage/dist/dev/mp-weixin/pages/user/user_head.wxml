@@ -1,0 +1,1 @@
+<view><block wx:if="{{pageLoad}}"><view><view class="flex flex-center mgt-10 mgb-10"><image class="wh-200 pointer" mode="widthFix" src="{{user_head}}" data-event-opts="{{[['tap',[['upload']]]]}}" bindtap="__e"></image></view></view></block></view>

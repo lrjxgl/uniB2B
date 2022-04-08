@@ -1,0 +1,38 @@
+
+.pageLoading{
+	position: fixed;
+	top: 120rpx;
+	left: 50%;
+	margin-left: -60rpx;
+	 
+	-webkit-box-pack: center;
+	 
+	-webkit-justify-content: center;
+	 
+	    -ms-flex-pack: center;
+	 
+	        justify-content: center;
+	text-align: center;
+	width: 120rpx;
+	height: 120rpx;
+	line-height: 120rpx;
+	font-size: 60rpx;
+	-webkit-animation: roundLoading 0.8s linear infinite;
+	        animation: roundLoading 0.8s linear infinite;
+	color: #666;
+}
+@-webkit-keyframes roundLoading{
+0%{-webkit-transform:rotate(0deg);}
+25%{-webkit-transform:rotate(90deg);}
+50%{-webkit-transform:rotate(180deg);}
+75%{-webkit-transform:rotate(270deg);}
+100%{-webkit-transform:rotate(360deg);}
+}
+@keyframes roundLoading{
+0%{-webkit-transform:rotate(0deg);}
+25%{-webkit-transform:rotate(90deg);}
+50%{-webkit-transform:rotate(180deg);}
+75%{-webkit-transform:rotate(270deg);}
+100%{-webkit-transform:rotate(360deg);}
+}
+

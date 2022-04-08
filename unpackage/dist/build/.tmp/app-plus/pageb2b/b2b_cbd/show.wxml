@@ -1,0 +1,1 @@
+<view><view class="main-body"><view style="height:44px;"></view><b2b-sortbox vue-id="1" pfixed="true" pstyle data-event-opts="{{[['^callParent',[['sortParent']]]]}}" bind:callParent="__e" bind:__l="__l"></b2b-sortbox><shop-item vue-id="2" shoplist="{{shopList}}" bind:__l="__l"></shop-item></view></view>

@@ -1,0 +1,82 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/hello",
+    "pages/article/index",
+    "pages/article/list",
+    "pages/article/show",
+    "pages/login/index",
+    "pages/login/findpwd",
+    "pages/register/index",
+    "pages/user/index",
+    "pages/user/info",
+    "pages/user/user_head",
+    "pages/user/password",
+    "pages/user/paypwd",
+    "pages/notice/my",
+    "pages/comment/my",
+    "pages/coupon/my",
+    "pages/fav/my",
+    "pages/recharge/my",
+    "pages/recharge/index",
+    "pages/recharge/order",
+    "pages/pay_log/my",
+    "pages/user_address/my",
+    "pages/user_address/add",
+    "pages/user_address/edit",
+    "pages/user_address/orderadd",
+    "pages/user/set",
+    "pages/kefu/index",
+    "pages/bankcard/index",
+    "pages/html/aboutus",
+    "pageb2b/b2b/index",
+    "pageb2b/b2b_guest/user",
+    "pageb2b/b2b_shop/index",
+    "pageb2b/b2b_product/index",
+    "pageb2b/b2b_product/list",
+    "pageb2b/b2b_product/show",
+    "pageb2b/b2b_cart/index",
+    "pageb2b/b2b_category/index",
+    "pageb2b/b2b_order/confirm",
+    "pageb2b/b2b_order/success",
+    "pageb2b/b2b_order/my",
+    "pageb2b/b2b_order/raty",
+    "pageb2b/b2b_order/show",
+    "pageb2b/b2b_order/pay",
+    "pageb2b/b2b_order/fail",
+    "pageb2b/b2b_user/index",
+    "pageb2b/b2b_search/index",
+    "pageb2b/b2b_blog/index",
+    "pageb2b/b2b_blog/add",
+    "pageb2b/b2b_blog/my",
+    "pageb2b/b2b_blog/show",
+    "pageb2b/b2b_shoplist/index",
+    "pageb2b/b2b_cbd/index",
+    "pageb2b/b2b_cbd/show",
+    "pageb2b/b2b_addr/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "福鼎生活网",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "preloadRule": {
+    "pages/index/index": {
+      "network": "all",
+      "packages": [
+        "pageb2b"
+      ]
+    }
+  },
+  "nvueCompiler": "weex",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "得推外卖",
+  "compilerVersion": "2.1.3",
+  "usingComponents": {
+    "page-loading": "/components/pageloading"
+  }
+}

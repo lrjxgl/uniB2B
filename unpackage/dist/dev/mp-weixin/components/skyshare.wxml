@@ -1,0 +1,1 @@
+<view><block wx:if="{{skyShareShow}}"><view data-event-opts="{{[['tap',[['shareHide',['$event']]]]]}}" class="modal-mask" bindtap="__e">{{skyShareShow}}</view></block><block wx:if="{{skyShareShow}}"><view class="skyShare-box"><view data-event-opts="{{[['tap',[['shareHide',['$event']]]]]}}" class="skyShare-footer" bindtap="__e">取消</view></view></block></view>

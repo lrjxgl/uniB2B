@@ -1,0 +1,93 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/hello",
+    "pages/article/index",
+    "pages/article/list",
+    "pages/article/show",
+    "pages/login/index",
+    "pages/login/findpwd",
+    "pages/register/index",
+    "pages/user/index",
+    "pages/user/info",
+    "pages/user/user_head",
+    "pages/user/password",
+    "pages/user/paypwd",
+    "pages/notice/my",
+    "pages/comment/my",
+    "pages/coupon/my",
+    "pages/fav/my",
+    "pages/recharge/my",
+    "pages/recharge/index",
+    "pages/recharge/order",
+    "pages/pay_log/my",
+    "pages/user_address/my",
+    "pages/user_address/add",
+    "pages/user_address/edit",
+    "pages/user_address/orderadd",
+    "pages/user/set",
+    "pages/kefu/index",
+    "pages/bankcard/index",
+    "pages/html/aboutus",
+    "pages/web/index",
+    "pages/invite/my",
+    "pages/redpacket/index"
+  ],
+  "subPackages": [
+    {
+      "root": "pageb2b",
+      "pages": [
+        "b2b/index",
+        "b2b_guest/user",
+        "b2b_shop/index",
+        "b2b_product/index",
+        "b2b_product/list",
+        "b2b_product/show",
+        "b2b_cart/index",
+        "b2b_category/index",
+        "b2b_order/confirm",
+        "b2b_order/success",
+        "b2b_order/my",
+        "b2b_order/raty",
+        "b2b_order/show",
+        "b2b_order/pay",
+        "b2b_order/fail",
+        "b2b_fav/index",
+        "b2b_user/index",
+        "b2b_search/index",
+        "b2b_blog/index",
+        "b2b_blog/add",
+        "b2b_blog/my",
+        "b2b_blog/show",
+        "b2b_shoplist/index",
+        "b2b_shoplist/youxuan",
+        "b2b_cbd/index",
+        "b2b_cbd/show",
+        "b2b_addr/index",
+        "b2b_addr/city"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "得推外卖系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "preloadRule": {
+    "pages/index/index": {
+      "network": "all",
+      "packages": [
+        "pageb2b"
+      ]
+    }
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "查询附近的商家"
+    }
+  },
+  "usingComponents": {
+    "page-loading": "/components/pageloading"
+  }
+}

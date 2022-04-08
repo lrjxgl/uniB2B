@@ -1,0 +1,113 @@
+
+.body {
+	background-color: #e3e3e3;
+}
+.uhead {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	padding: 22rpx;
+	background-color: #fff;
+	margin-bottom: 11rpx;
+}
+.uhead-img {
+	width: 172rpx;
+	height: 172rpx;
+	margin-right: 22rpx;
+	display: block;
+	border-radius: 50%;
+}
+.uhead-box {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+}
+.uhead-nick {
+	margin-bottom: 10rpx;
+	font-size: 34rpx;
+}
+.uhead-rnum {
+	color: #999;
+	margin-bottom: 32rpx;
+	line-height: 29rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	font-size: 29rpx;
+}
+.order-box {
+	background-color: #fff;
+	padding: 22rpx;
+	margin-bottom: 22rpx;
+}
+.order-box-hd {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	line-height: 79rpx;
+	border-bottom: 2rpx solid #ddd;
+	margin-bottom: 22rpx;
+}
+.order-box-status {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+.order-box-item {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	text-align: center;
+	font-size: 32rpx;
+	color: #666;
+}
+.order-box-item .iconfont {
+	display: block;
+	color: #666;
+	font-size: 42rpx;
+}
+.row-item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	padding: 10rpx 16rpx;
+	margin-bottom: 10rpx;
+	font-size: 35rpx;
+	color: #555;
+	border-bottom: 2rpx solid #eee;
+}
+.row-icon {
+	position: relative;
+	top: -5rpx;
+	font-size: 40rpx;
+	margin-right: 10rpx;
+	color: #555;
+}
+

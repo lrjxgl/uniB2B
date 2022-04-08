@@ -1,0 +1,26 @@
+
+.yzmDisable{
+	background-color: #eee;
+	color: #999;
+}
+.regBox{
+	position: absolute;
+	top: 50%;
+	left: 30rpx;
+	right: 30rpx;
+	margin-top: -390rpx;
+	padding:30rpx 20rpx;
+	background-color: #fff; 
+	border-radius: 20rpx;
+}
+.regBg{
+	background: -webkit-gradient( linear,left top, left bottom,from(#29cee8),to(#619ad6));
+	background: -o-linear-gradient( #29cee8,#619ad6);
+	background: linear-gradient( #29cee8,#619ad6);
+	position: absolute;
+	top: 0rpx;
+	bottom: 0rpx;
+	left: 0rpx;
+	right: 0rpx;
+}
+

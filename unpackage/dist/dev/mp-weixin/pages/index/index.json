@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "得推外卖",
+  "onReachBottomDistance": 60,
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "b2b-footer": "/components/b2bfooter",
+    "b2b-sortbox": "/components/b2b-sortbox",
+    "shop-item": "/components/shop-item"
+  }
+}

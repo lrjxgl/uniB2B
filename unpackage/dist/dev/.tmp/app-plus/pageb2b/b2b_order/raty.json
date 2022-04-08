@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "sky-raty": "/components/skyraty"
+  }
+}

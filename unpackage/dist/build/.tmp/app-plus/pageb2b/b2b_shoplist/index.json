@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "b2b-sortbox": "/components/b2b-sortbox",
+    "shop-item": "/components/shop-item"
+  }
+}

@@ -1,0 +1,79 @@
+
+.otherBox {
+	position: relative;
+	height: 79.2rpx;
+}
+.otherBox-line {
+	width: 100%;
+	height: 2.2rpx;
+	background-color: #d0d0d0;
+	top: 39.6rpx;
+	position: absolute;
+}
+.otherBox-text {
+	background-color: #50a8db;
+	text-align: center;
+	padding: 0rpx 22rpx;
+	line-height: 79.2rpx;
+	position: absolute;
+	width: 264rpx;
+	left: 50%;
+	margin-left: -132rpx;
+	color: #fff;
+}
+.flexIcon {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	background-color: #2e85d8;
+	margin-bottom: 44rpx;
+	border-radius: 44rpx;
+	padding: 22rpx 22rpx;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.flexIcon-icon {
+	margin-right: 13.2rpx;
+	font-size: 39.6rpx;
+	color: #fff;
+}
+.flexIcon-text {
+	color: #fff;
+	border: 0;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	background:inherit;
+	outline: 0;
+	font-size: 35.2rpx;
+}
+.loginBox {
+	position: absolute;
+	top: 50%;
+	left: 22rpx;
+	right: 22rpx;
+	margin-top: -330rpx;
+	padding: 33rpx 22rpx;
+
+	border-radius: 44rpx;
+}
+.loginBg {
+	background: -webkit-gradient( linear,left top, left bottom,from(#29cee8),to(#619ad6));
+	background: -o-linear-gradient( #29cee8,#619ad6);
+	background: linear-gradient( #29cee8,#619ad6);
+	background-color: ;
+	position: absolute;
+	top: 0rpx;
+	bottom: 0rpx;
+	left: 0rpx;
+	right: 0rpx;
+}
+
+
+
+

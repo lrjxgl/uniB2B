@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "page-loading": "/components/pageloading"
+  }
+}

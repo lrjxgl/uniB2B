@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "hello uniApp",
+  "onReachBottomDistance": 60,
+  "enablePullDownRefresh": true,
+  "usingComponents": {}
+}

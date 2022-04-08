@@ -1,0 +1,140 @@
+
+.sTopBox{
+	position: fixed;
+	top: 0px;
+	left: 0;
+	right: 0;
+	z-index: 998;
+}
+
+.top-row {
+	height: 10px;
+	background-color: #333;
+}
+.header-back-fixed {
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+}
+.shop-fav-toggle:before {
+	color: #aaa;
+	font-size: 24px;
+}
+.shop-fav-active:before {
+	color: #f00;
+	font-size: 28px;
+}
+
+.header-fixtop-menu {
+	position: absolute;
+	top: 40px;
+	border-radius: 10px;
+	right: 5px;
+	width: 100px;
+	z-index: 999;
+	background-color: #fff;
+}
+.wshop {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	padding-left: 10px;
+	height: 100px;
+	background-color:#333;
+	padding-top: 10px;
+}
+.wshop-logo {
+	position: relative;
+	width: 80px;
+	height: 80px;
+	margin-right: 15px;
+}
+.wshop-logo-img {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+.wshop-shopname {
+	color: #fff;
+	margin-bottom: 5px;
+	position: relative;
+	font-size: 16px;
+}
+.wshop-welcome {
+	color: #fff;
+	font-size: 12px;
+}
+.cpRow{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	overflow: hidden;
+}
+.cpbtn{
+	font-size: 12px;
+	color: #fff;
+	margin-right: 5px;
+	padding: 2px 4px;
+	border-radius: 3px;
+	background-color: #f25c53;
+	-webkit-transform: scale(0.8);
+	    -ms-transform: scale(0.8);
+	        transform: scale(0.8);
+}
+.side {
+	position: fixed;
+	top: 189px;
+	left: 0px;
+	width: 80px;
+	bottom: 50px;
+	background-color: #fff;
+}
+
+.side {
+	top: 145px;
+}
+
+.side-menu {
+	cursor: pointer;
+	padding: 10px 5px;
+	border-bottom: 1px solid #eee;
+	color: #646464;
+	font-size: 14px;
+}
+.side-menu-active {
+	color: #f60;
+}
+.side-main {
+	margin-left: 82px;
+}
+.numbox{
+	width:auto;
+}
+.numbox-minus, .numbox-plus {
+	display: block;
+	width: 24px;
+	line-height: 24px;
+	height:24px;
+	font-size: 14px;
+	cursor: pointer;
+	text-align: center;
+}
+.numbox-num{
+	width: 32px;
+	height: 24px;
+	font-size: 12px;
+}
+
